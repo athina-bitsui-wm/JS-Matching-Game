@@ -5,9 +5,11 @@
 var theBody= document.getElementsByTagName("body")[0];
 var theLeft= document.getElemeantById("leftSide");
 var theRight= document.getElementById("rightSide");
-img.scr="dragon.png";
+
+img.createElement(img.scr="dragon.png");
+
+function generateFace();
 
 img.Floor.random(Math.random()*5);
 
-appendChild();
-enerateface();
+var leftSide= appendChild();
